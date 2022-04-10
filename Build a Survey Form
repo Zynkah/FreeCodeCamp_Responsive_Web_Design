@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Survey Form</title>
+  <style>
+  body {
+  background: DarkSlateGray
+    url("https://media.istockphoto.com/photos/honeycomb-technology-concept-picture-id498890538?k=6&m=498890538&s=170667a&w=0&h=LnsASyU6347D55GH4si7yez3YOexRDqJg9Gb17K8N7A=")
+    repeat;
+  color: slategrey;
+  font: 20px monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  border: 1px solid;
+  width: max-content;
+  padding: 30px;
+  text-align: center;
+}
+
+fieldset {
+  width: max-content;
+  padding: 30px;
+  text-align: center;
+}
+
+textarea {
+  font: 20px monospace;
+  color: slategrey;
+}
+
+#submit {
+  color: slategrey;
+  background: url("https://media.istockphoto.com/photos/honeycomb-technology-concept-picture-id498890538?k=6&m=498890538&s=170667a&w=0&h=LnsASyU6347D55GH4si7yez3YOexRDqJg9Gb17K8N7A=");
+  padding: 5px;
+  font: 20px monospace;
+}
+
+#submit:hover {
+  opacity: 0.5;
+}
+
+  </style>
+  
+</head>
+
+<body>
+  <section>
+  <h1 id="title">Personal Survey Form</h1>
+  <p id="description">Please fill out the survey form provided below:</p>
+ 
+  
+  <form id="survey-form" action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" method="post">
+
+    <fieldset>
+      <legend>Survey Form</legend>
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" />
+      <br />
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="YourEmail@mail.com" />
+      <br />
+      <label for="number" id="number-label">Number:</label>
+      <input type="tel" id="number" name="number" placeholder="1-555-555-5555" />
+      <br />
+      <label for="pet">Favorite Color</label>
+      <select name="color">
+        <option value=""></option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="pink">Pink</option>
+        <option value="purple">Purple</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+      <br />
+      <label for="age">Age:</label>
+      <input type="radio" id="kid" name="age" value="kid" />
+      <label for="kid">0-20</label>
+      <input type="radio" id="youngAdult" name="age" value="youngAdult" />
+      <label for="youngAdult">21-40</label>
+      <input type="radio" id="adult" name="age" value="adult" />
+      <label for="adult">41-60</label>
+      <input type="radio" id="elder" name="age" value="elder" />
+      <label for="elder">61+</label>
+      <br />
+      <label for="pets">Pets:</label>
+      <input type="checkbox" id="dog" name="pets" value="dog" />
+      <label for="dog">Dog</label>
+      <input type="checkbox" id="cat" name="pets" value="cat" />
+      <label for="cat">Cat</label>
+      <input type="checkbox" id="reptile" name="pets" value="reptile" />
+      <label for="reptile">Reptile</label>
+      <input type="checkbox" id="fish" name="pets" value="fish" />
+      <label for="fish">Fish</label>
+      <input type="checkbox" id="rodent" name="pets" value="rodent" />
+      <label for="rodent">Rodent</label>
+      <br />
+      <label for="comment">Comments:</label>
+      <br />
+      <textarea name="comment" placeholder="Your Comments..." rows="8" cols="40"></textarea>
+      <br />
+      <input type="button" id="submit" value="submit" name="submit" />
+
+    </fieldset>
+
+  </form>
+ </section>
+</body>
+
+</html>
