@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="utf-8" />
+    <title>Tribute Page</title>
+    <style>
+        body {
+            margin: 10%;
+            background-color: MediumAquaMarine;
+            background-image: url("https://th.bing.com/th/id/R.a028d9f2ecaa45f806f1a147e5af68ed?rik=AdMYnn%2fre0nRyw&pid=ImgRaw&r=0");
+            text-align: center;
+            font-family: monospace;
+        }
+
+        header {
+            opacity: 0.8;
+            background-color: darkcyan;
+            margin: 2px 2px 2px 2px;
+            padding: 20px 2px;
+            font-family: monospace;
+            font-size: 80px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            font-family: monospace;
+            font-size: 18px;
+            background: darkslategrey;
+            opacity: 0.7;
+            margin: 2px;
+            padding: 20px;
+        }
+
+        a {
+            color: white;
+            margin: 0px 30px;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: yellow;
+        }
+
+        div {
+            opacity: 0.8;
+            background-color: darkcyan;
+            margin: 2px 2px 2px 2px;
+            padding: 2px 2px 2px 2px;
+            color: white;
+            font-size: 10px;
+        }
+
+        li {
+            display: inline;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: white;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: white;
+        }
+
+        p {
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            color: white;
+        }
+
+        button {
+            width: 40%;
+            font-family: monospace;
+            border-radius: 5px;
+            background-color: darkslategrey;
+            color: white;
+        }
+
+        button:hover {
+            background-color: cyan;
+        }
+
+        input {
+            font-family: monospace;
+            width: 60%;
+            height: 200px;
+        }
+
+        img {
+            margin: auto;
+            padding: auto;
+            display: block;
+            width: 45%;
+        }
+
+        .gameNav {
+            background-color: darkslategrey;
+            opacity: 0.8;
+            padding: 20px;
+        }
+    </style>
+</header>
+
+<body>
+
+    <header id="title"><b>Game Reviews</b></header>
+
+    <nav>
+        <ul class="text-primary text-center">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Games">Games</a></li>
+            <li><a href="#Messenges">Messages</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div id="main">
+        <h1 id="About"><b>About</b></h1>
+
+        <p>This is a work in progress for my channel website. It's going to be a mess for a minute. For now enjoy some
+            game recommendations. I catergorized them so that you can chose the type of game you enjoy them most. I
+            stream on Twitch and post recaps on Youtube, links are in the contact section. Follow me on Twitter to keep
+            up to date with my life.</p>
+    </div>
+
+
+    <div>
+        <h1 id="Games"><b>Games</b></h1>
+
+        <ul class="gameNav">
+            <li><a href="#JRPG">JRPG</a></li>
+            <li><a href="#FPS">FPS</a></li>
+            <li><a href="#RPG">RPG</a></li>
+            <li><a href="#MMO">MMO</a></li>
+        </ul>
+
+        <br />
+        <p id="JRPG">JRPG</p>
+
+        <h2><b>Final Fantasy VII :</b></h2>
+        <p>Now I have to say, this is my favorite game. I have played it more time than I could ever keep track. I
+            highly recommend this game. Not only was it iconic for the time it came out (1997) but it still stands
+            strong to this day.</p>
+        <img src="https://i.redd.it/9branstdv5p21.jpg" alt="ff7" />
+        <br />
+
+
+        <h2><b>Final Fantasy XII The Zodiac Age :</b></h2>
+        <p>This just might be my second favorite Final Fantasy game. I have played the origional back in the day and the
+            remastered Zodiac Age edition. I also highly recommend this game, in my opinion it is very underated. The
+            gambit system is a lot like if, else statements, so code monkeys should be able to grasp the concept pretty
+            quickly.</p>
+        <div id="img-div">
+            <img id="image"
+                src="https://th.bing.com/th/id/R.85d167e6b77145bdd68a8c99dec51117?rik=2D8vRMNtVDVyZg&riu=http%3a%2f%2fayay.co.uk%2fbackgrounds%2frpg_games%2ffinal_fantasy_12%2fcast-of-ff-XII-sitting-around-a-tree.jpg&ehk=kkYcU%2bXoJuAZCHec56yGPL8o9zyWS5csrR9yIMZQ33A%3d&risl=&pid=ImgRaw&r=0"
+                alt="ff12" />
+            <div id="img-caption">ff12 cast</div>
+        </div>
+
+
+
+        <h2><b>Final Fantasy XV :</b></h2>
+        <p>I am not going to lie, it took me a while for this game to grow on me. Now I cannot get enough of it. You
+            definitely need to buy and play the DLC to get the full experience (which I am not a fan of) but I place it
+            on my must play list reguardless.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/FF_XV_cover_art.jpg" alt="ff15" />
+        <br />
+
+
+
+        <h2><b>Gravity Rush :</b></h2>
+        <p>I platniumed this game it was that good. The game mechanics are so origional. The world and characters are
+            fresh and not over used concepts. Plus it has a classic quirky anime humor I really love. A JRPG you cannot
+            miss!</p>
+        <img src="https://external-preview.redd.it/dc7lIlyOXlv70Z0xSTn0zm0FJS02PgKi6W7ND9Q2ai4.jpg?auto=webp&s=451cf9979ef3ba9776ccfd524a2d15cbcd89ccae"
+            alt="gravityRush" />
+
+        <br />
+
+
+        <p id="FPS">FPS</p>
+        <br />
+
+
+
+        <h2><b>Borderlands 1, 2, 3 & Presequel</b></h2>
+        <br />
+        <p>Yea that is right, I listed all of them, they are all worth playing for their own reason. BL2 is my personal
+            favorite but I recommend you play them all with all the DLC</p>
+        <img src="https://i.redd.it/d0xyfucxxkl31.jpg" alt="BL2" />
+        <br />
+
+
+        <h2><b>Halo</b></h2>
+        <p>Again, the whole series, you have to experience all of it. This is a legendary FPS that really put XBOX on
+            the map. I personally only bought a XBOX console to play Halo alone. Just play it.
+        </p>
+        <img src="https://i.redd.it/3uamclzcrcn11.jpg" alt="halo" />
+
+        <p id="RPG">RPG</p>
+        <br />
+        <h2><b>Skyrim</b></h2>
+        <p>This game has stolen so much of my life and I do not mind one bit. This highly addictive game will overwhelm
+            you with a dense map and tons of character development. You will want to keep coming back to slay or ride a
+            dragon.</p>
+    </div>
+
+    <h2 id="Messages"><b>Messages</b></h2>
+
+    <input type="text" class="feedback" placeholder="Any thoughts?" required />
+
+
+    <button type="submit" class="btn">Submit</button>
+
+    <div>
+        <h7 id="Contact"><b>Contact</b></h7>
+        <p id="tribute-info">If you want to learn more about me, follow me, whatever feel free to click on any of these
+            links</p>
+
+        <a href="https://www.twitch.tv/zynkah" target="_blank" id="tribute-link"><button>Twitch</button></a>
+        <a href="https://www.youtube.com/channel/UCpAekFJY4pBOEQSSUGAutMA/" target="_blank"><button>Youtube</button></a>
+    </div>
+
+</body>
+
+</html>
