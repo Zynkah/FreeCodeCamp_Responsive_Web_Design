@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Technical Documentation</title>
+    <style>
+        body {
+            min-width: 290px;
+            color: #4d4e53;
+            background-color: #ffffff;
+            font-family: 'Open Sans', Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        img {
+            opacity: 0.7;
+            width: 200px;
+            height: 100px;
+            object-fit: scale-down;
+        }
+
+        #navbar {
+            position: fixed;
+            min-width: 290px;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 100%;
+            border-right: solid;
+            border-color: rgba(0, 22, 22, 0.4);
+        }
+
+        header {
+            color: black;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: thin;
+        }
+
+        code:hover {
+            background-color: lightblue;
+            border-radius: 10px;
+        }
+
+        #main-doc header {
+            text-align: left;
+            margin: 0px;
+        }
+
+        #navbar ul {
+            height: 88%;
+            padding: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        #navbar li {
+            color: #4d4e53;
+            border-top: 1px solid;
+            list-style: none;
+            position: relative;
+            width: 100%;
+        }
+
+        #navbar a {
+            display: block;
+            padding: 10px 30px;
+            color: #4d4e53;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #main-doc {
+            position: absolute;
+            margin-left: 310px;
+            padding: 20px;
+            margin-bottom: 110px;
+        }
+
+        section li {
+            margin: 15px 0px 0px 20px;
+        }
+
+
+        @media only screen and (max-width: 815px) {
+
+            #navbar ul {
+                border: 1px solid;
+                height: 207px;
+            }
+
+            #navbar {
+                background-color: white;
+                position: absolute;
+                top: 0;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                max-height: 275px;
+                border: none;
+                z-index: 1;
+                border-bottom: 2px solid;
+            }
+
+            #main-doc {
+                position: relative;
+                margin-left: 0px;
+                margin-top: 270px;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            #main-doc {
+                margin-left: -10px;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        .child {
+            flex-basis: calc(calc(500px - 100%) * 999);
+            ;
+            flex-grow: 1;
+            background: white;
+            padding: 1em;
+            font-size: 18px;
+        }
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<nav id="navbar">
+
+    <header><img src="https://wallpapercave.com/wp/YURcjRq.png" alt="logo" /></header>
+    <ul>
+        <li><a class="nav-link" href="#Introduction">Intro</a></li>
+        <li>
+            <a class="nav-link" href="#Games">Games</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Movies">Movies</a>
+        </li>
+        <li><a class="nav-link" href="#Books">Books</a></li>
+        <li><a class="nav-link" href="#Art">Art</a></li>
+        <li>
+            <a class="nav-link" href="#References">References</a>
+        </li>
+    </ul>
+</nav>
+
+<main id="main-doc">
+
+    <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+            Final Fantasy has existed since 1989. It started as a video game but has evolved into so much more.
+        </p>
+    </section>
+
+    <section class="main-section" id="Games">
+        <header><code>Games</code></header>
+        <div class="container">
+            <div class="child child1">
+                <p> Main Series </p>
+                <ul>
+                    <li>Final Fantasy </li>
+                    <li>Final Fantasy II</li>
+                    <li>Final Fantasy III</li>
+                    <li>Final Fantasy IV</li>
+                    <li>Final Fantasy V</li>
+                    <li>Final Fantasy VI</li>
+                    <li>Final Fantasy VII</li>
+                    <li>Final Fantasy VIII</li>
+                    <li>Final Fantasy IX</li>
+                    <li>Final Fantasy X</li>
+                    <li>Final Fantasy XI</li>
+                    <li>Final Fantasy XII</li>
+                    <li>Final Fantasy XIII</li>
+                    <li>Final Fantasy XIV</li>
+                    <li>Final Fantasy XV</li>
+                </ul>
+            </div>
+
+            <div class="child child2">
+                <p> Main Series Side Games </p>
+                <ul>
+                    <li>Final Fantasy IV-THE AFTER YEARS</li>
+                    <li>Final Fantasy VII-BEFORE CRISIS</li>
+                    <li>Final Fantasy VII-CORE CRISIS </li>
+                    <li>Final Fantasy VII-DIRGE OF CEREBUS</li>
+                    <li>Final Fantasy VII Remake</li>
+                    <li>Final Fantasy X-2</li>
+                    <li>Final Fantasy XII-REVERANT WINGS</li>
+                    <li>Final Fantasy XIII-2</li>
+                    <li>Final Fantasy XIII-LIGHTNING RETURNS</li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="child child3">
+                <p>Side Series</p>
+                <ul>
+                    <li>Final Fantasy: Mystic Quest</li>
+                    <li>Final Fantasy TACTICS</li>
+                    <li>Final Fantasy TACTICS S</li>
+                    <li>Final Fantasy: Anthology</li>
+                    <li>Final Fantasy Chronicals</li>
+                    <li>Final Fantasy: Origins</li>
+                    <li>Final Fantasy Crystal Chronicles</li>
+                    <li>World of Final Fantasy</li>
+                    <li>Final Fantasy TYPE-0</li>
+                    <li>Dissidia Final Fantasy</li>
+                    <li>Final Fantasy Crystal Chronicles: Echoes of Time</li>
+                    <li>Final Fantasy Crystal Chronicles: My Life as a Darklord</li>
+                    <li>Final Fantasy Crystal Chronicles: The Crystal Bearers</li>
+                    <li>Final Fantasy: The 4 Heroes of Light</li>
+                    <li>Dissidia 012 Final Fantasy</li>
+                    <li>Theatrhythm Final Fantasy</li>
+                    <li>Theatrhythm Final Fantasy: Curtain Call</li>
+                    <li>Final Fantasy Explorers</li>
+                </ul>
+            </div>
+            <div class="child child4">
+                <p>Hand Held Games</p>
+                <ul>
+                    <li>Final Fantasy: Legend</li>
+                    <li>Final Fantasy: Legend II</li>
+                    <li>Final Fantasy: Legend III</li>
+                    <li>Final Fantasy Adventure</li>
+                    <li>Final Fantasy TACTICS ADVANCE</li>
+                    <li>Final Fantasy TACTICS A2: Grimoire of the Rift</li>
+                    <li>Sword of Mana</li>
+                    <li>Final Fantasy: Dawn of Souls</li>
+                    <li>Final Fantasy Tactics: War of the Lions</li>
+                    <li>Final Fantasy Crystal Chronicles: Ring of Fates</li>
+                    <li>Final Fantasy Crystal Chronicles: My Life as a King</li>
+                </ul>
+            </div>
+            <div class="child child5">
+                <p>Mobile Games</p>
+                <ul>
+                    <li>Final Fantasy VII [7] Snowboarding</li>
+                    <li>Crystal Defenders</li>
+                    <li>Crystal Defenders: Vanguard Storm</li>
+                    <li>Final Fantasy Dimensions</li>
+                    <li>Final Fantasy Artniks</li>
+                    <li>Final Fantasy All the Bravest</li>
+                    <li>Final Fantasy Agito</li>
+                    <li>Final Fantasy Record Keeper</li>
+                    <li>Final Fantasy VII [7] G-Bike</li>
+                    <li>Final Fantasy Legends: Toki no Suishō</li>
+                    <li>Mobius Final Fantasy</li>
+                    <li>Final Fantasy: Brave Exvius</li>
+                    <li>Final Fantasy Type-0 Online</li>
+                    <li>Adventures of Mana</li>
+                    <li>Justice Monsters Five</li>
+                    <li>Final Fantasy XV [15]: A New Empire</li>
+                    <li>Dissidia Final Fantasy Omnia</li>
+                    <li>Final Fantasy XV: Pocket Edition HD</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-section" id="Movies">
+        <header><code>Movies</code></header>
+        <p>In addition to a game series, there is also a variety of movies.</p>
+        <ul>
+            <li>FF LEGEND OF THE CRYSTALS</li>
+            <li>FF UNLIMITED</li>
+            <li>FF-THE SPIRITS WITHIN</li>
+            <li>FFVII-THE LAST ORDER</li>
+            <li>FFVII-ADVENT CHILDREN</li>
+            <li>FFXV KINSGLAIVE</li>
+            <li>FFXV BROTEHRHOOD</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="Books">
+        <header><code>Books</code></header>
+        <p>You could dive even deeper into the lore with a light novel.</p>
+        <div class="container">
+            <div class="child child1">
+                <ul>
+                    <li>Strategy Guides</li>
+                    <li>Battle Guides</li>
+                    <li>Ultimania Collection</li>
+                    <li>Light Novels</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-section" id="Art">
+        <header><code>Art</code></header>
+        <p>There are many pieces of art. I personally have a wall scroll.</p>
+        <img src="https://th.bing.com/th/id/R.9bff0a77550c72faee454efda95a7704?rik=hkuGsiA2doyTVg&riu=http%3a%2f%2fi.ebayimg.com%2fimages%2fi%2f281907311906-0-1%2fs-l1000.jpg&ehk=JBBXZ9xSRaiYXOzpQ2J8EqGQFE4sdFCKTjjyZNtkjrk%3d&risl=&pid=ImgRaw&r=0"
+            alt="wallscroll" />
+    </section>
+
+    <section class="main-section" id="References">
+        <header><code>References</code></header>
+        <p> <a href="https://thefinalfantasy.net/games/" target="_blank">Final Fantasty Game List </a></p>
+    </section>
+    <script>const projectName = 'technical-docs-page';</script>
+</main>
+
+</html>
